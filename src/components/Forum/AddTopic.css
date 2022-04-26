@@ -1,0 +1,110 @@
+.enterText {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+.textArea {
+  font-family: "Open Sans", sans-serif;
+  resize: none;
+  width: 50%;
+  height: 170px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #373e49;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.category {
+  display: flex;
+  height: 1.5vw;
+  margin-inline-start: 25vw;
+  margin-top: 2vw;
+  width: 5vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.topic {
+  display: flex;
+  height: 1.5vw;
+  margin-inline-start: 25vw;
+  margin-top: 2vw;
+}
+
+.topicInput {
+  font-family: "Open Sans", sans-serif;
+  width: 20vw;
+  height: 2vw;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #373e49;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.button-close {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-save {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  margin-left: 0.2vw;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 0.1vw;
+  margin-right: 66.2vw;
+}

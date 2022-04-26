@@ -1,0 +1,52 @@
+.subuser-row {
+  display: grid;
+  grid-template-columns: 10%10%15%10%10%10%10%10%10%;
+  margin-right: 15vw;
+  margin-top: 3vw;
+}
+
+.subuser-column {
+  font-family: "Open Sans", sans-serif;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #1d1e20;
+  color: #ffffff;
+  text-align: center;
+}
+
+.user-row {
+  display: grid;
+  grid-template-columns: 10%10%15%10%10%10%10%10%10%;
+  margin-right: 15vw;
+}
+
+.user-category {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+}
+
+.user-name {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #03a3ff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.user-likes {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+}

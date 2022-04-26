@@ -1,0 +1,72 @@
+.approve-guide-row {
+  display: grid;
+  grid-template-columns: 10%15%10%10%10%10%10%10%10%;
+  margin-right: 25vw;
+  margin-top: 3vw;
+}
+
+.approve-guide-column {
+  font-family: "Open Sans", sans-serif;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #1d1e20;
+  color: #ffffff;
+  text-align: center;
+}
+
+.addguide-row {
+  display: grid;
+  grid-template-columns: 10%15%10%10%10%10%10%10%10%;
+  margin-right: 25vw;
+}
+
+.approve-guide-category {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+}
+
+.guide-designrow {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #3d3d3d;
+  color: #ffffff;
+  text-align: center;
+}
+
+.approve-guide-designrow-btn {
+  font-family: "Open Sans", sans-serif;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #34e0a1;
+  color: #030000;
+  text-align: center;
+}
+
+.denied-guide-designrow-btn {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #d14141;
+  color: #030000;
+  text-align: center;
+}
+
+.guide-certificate {
+  height: 20vw;
+  width: 40vw;
+  overflow: hidden;
+  border: solid 1px #000;
+  margin-top: 0.5rem;
+  margin-right: 29vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

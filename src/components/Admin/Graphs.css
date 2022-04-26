@@ -1,0 +1,10 @@
+.graphs-page {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15vh;
+}
+.display-graph {
+  margin-right: 3vw;
+}

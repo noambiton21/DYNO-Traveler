@@ -1,0 +1,276 @@
+.add-trip {
+  margin-right: 40vw;
+  padding: 2rem;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 20vw;
+  position: absolute;
+  margin-top: 2vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 3rem;
+}
+.trip-category {
+  display: flex;
+  margin-top: 2vw;
+  margin-right: 0.3vw;
+  width: 5vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+}
+
+.add-new-trip {
+  text-align: center;
+  color: #fff;
+}
+.textArea-trip {
+  resize: none;
+  width: 100%;
+  height: 170px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  /* border: 2px solid #ccc; */
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgb(100 100 100 / 20%),
+    0 1px 1px rgb(255 255 255 / 20%);
+  transition: box-shadow 0.5s ease;
+}
+
+.textArea-box {
+  padding: 0.5rem;
+}
+.textArea-trip-tellUs {
+  resize: none;
+  width: 100%;
+  height: 70px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  /* border: 2px solid #ccc; */
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgb(100 100 100 / 20%),
+    0 1px 1px rgb(255 255 255 / 20%);
+  transition: box-shadow 0.5s ease;
+}
+
+.textArea-box-tellUs {
+  padding: 0.5rem;
+}
+
+.trip-title {
+  height: 3rem;
+  width: 96%;
+  margin-right: 0.5rem;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgb(100 100 100 / 20%),
+    0 1px 1px rgb(255 255 255 / 20%);
+  transition: box-shadow 0.5s ease;
+}
+.openMap-btn {
+  background-color: #4fe087c2;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 1vw;
+  min-width: 10px;
+  padding: 9px 20px 8px;
+  touch-action: manipulation;
+  width: 96%;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.saveTrip-btn {
+  background-color: #4fe087c2;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  padding: 9px 20px 8px;
+  touch-action: manipulation;
+  width: 100%;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+.saveTrip-btn:focus {
+  background-color: #b62424c2;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  padding: 9px 20px 8px;
+  touch-action: manipulation;
+  width: 100%;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+.saveTrip-btn:active {
+  background-color: #b62424c2;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  padding: 9px 20px 8px;
+  touch-action: manipulation;
+  width: 100%;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+.add-trip-btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 0.8rem 2.5rem;
+  transition: all 0.3s;
+  border-radius: 10px;
+  margin-right: 45vw;
+  margin-top: 2vw;
+  background-color: #1c968c;
+  opacity: 1;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+.add-trip-btn:hover {
+  color: #fff;
+  background-color: #2a2f38;
+}
+
+.top-recommended-trips {
+  margin-top: 5rem;
+  background-color: rgb(42, 47, 56);
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 3rem;
+  max-width: 40vw;
+  padding: 2rem;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-right: 30vw;
+  text-align: center;
+}
+
+/* .top-recommended {
+} */
+.trip-title-guide {
+  text-decoration: none;
+  color: #fff;
+}
+.top-recommended-attrection {
+  margin-top: 5rem;
+  background-color: rgb(42, 47, 56);
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 3rem;
+  max-width: 40vw;
+  padding: 2rem;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-right: 30vw;
+  text-align: center;
+}
+
+.top-recommended-museums {
+  margin-top: 5rem;
+  background-color: rgb(42, 47, 56);
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 3rem;
+  max-width: 40vw;
+  padding: 2rem;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-right: 30vw;
+  text-align: center;
+}
+
+.top-recommended-image {
+  height: 7vw;
+  width: 15vw;
+  overflow: hidden;
+  border: solid 1px #000;
+  margin-top: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.map-container {
+  margin-right: 25vw;
+  margin-top: 5vw;
+}
+
+.close-map {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #5491f5;
+  color: #ffffff;
+  text-align: center;
+  width: 6rem;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.grab-map {
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+/*-----------------------------------------------*/

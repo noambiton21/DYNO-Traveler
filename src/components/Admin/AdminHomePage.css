@@ -1,0 +1,90 @@
+.sidebarArea {
+  flex-shrink: 0;
+  width: 260px;
+  background-color: #2c2c2c;
+}
+.sidenav-bg:hover {
+  background-color: #6187ad;
+  border-radius: 0.3rem;
+}
+.sidebarArea {
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  z-index: 1;
+  margin-left: -260px;
+  transition: 0.2s ease-in;
+}
+.showSidebar {
+  margin-left: 0px;
+}
+
+.adminside {
+  margin-top: 2rem;
+}
+.sidenav-bg {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+.btn-sidenav {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-logout {
+  background-color: #6d1d1d;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.btn-unitTests {
+  background-color: #3ee47e;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-right: 5.5rem;
+  max-width: 4vw;
+  min-height: 1vw;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  margin-top: 65vh;
+}

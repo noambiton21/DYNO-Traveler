@@ -1,0 +1,72 @@
+.makeadmin-row {
+  display: grid;
+  grid-template-columns: 10%10%15%10%10%10%10%10%10%;
+  margin-right: 25vw;
+  margin-top: 3vw;
+}
+
+.makeadmin-column {
+  font-family: "Open Sans", sans-serif;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #1d1e20;
+  color: #ffffff;
+  text-align: center;
+}
+
+.admin-row {
+  display: grid;
+  grid-template-columns: 10%10%15%10%10%10%10%10%10%;
+  margin-right: 25vw;
+}
+
+.admin-category {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+}
+
+.admin-role {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #1d1e20;
+  color: #03a3ff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.admin-designrow {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #4ab096;
+  color: #ffffff;
+  text-align: center;
+}
+
+.admin-designrow-btn {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #34e0a1;
+  color: #030000;
+  text-align: center;
+}
+
+.unadmin-designrow-btn {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #d14141;
+  color: #030000;
+  text-align: center;
+}

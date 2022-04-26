@@ -1,0 +1,44 @@
+.slideshow {
+  position: relative;
+}
+
+.mainImg {
+  height: 13vw;
+  width: 22vw;
+  overflow: hidden;
+  border: solid 1px #000;
+  margin-top: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.actions {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  background: #0000003d;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  padding-top: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  padding-top: 5px;
+}
+
+.actions button:active {
+  background: #000000a2;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  padding-top: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  padding-top: 5px;
+}

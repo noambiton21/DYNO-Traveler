@@ -1,0 +1,190 @@
+.show-trip {
+  width: 100%;
+  min-height: calc(15vh - 80px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hide-trip {
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.7);
+  min-height: calc(15vh - 80px);
+  height: auto;
+  opacity: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tripDetails {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  max-width: 50vw;
+}
+
+.emailGuide {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  max-width: 50vw;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.trip-title-show {
+  flex: 50%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.likeIcon {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  border-radius: 4em;
+  font-size: 16px;
+  color: white;
+  padding: 0.8em 1.8em;
+  cursor: pointer;
+}
+
+.likeIconChecked {
+  position: relative;
+  background-color: rgb(155, 138, 255);
+  border-radius: 4em;
+  font-size: 16px;
+  color: white;
+  padding: 0.8em 1.8em;
+  cursor: pointer;
+}
+
+.likeIcon:hover {
+  transition-duration: 0.1s;
+  background-color: #3a3a3a;
+}
+.likeIcon:after {
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+
+.btn-share:hover {
+  transition-duration: 0.1s;
+  background-color: #3a3a3a;
+}
+.btn-share {
+  color: rgb(255, 255, 255);
+  margin-top: 2vw;
+  margin-left: 20vw;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 1em;
+}
+
+.main-image {
+  height: 20vw;
+  width: 40vw;
+  overflow: hidden;
+  border: solid 1px #000;
+  margin-top: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.shared-images {
+  max-width: 15vw;
+}

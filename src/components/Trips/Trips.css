@@ -1,0 +1,52 @@
+.subtrips-row {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  margin-right: 29vw;
+  margin-top: 3vw;
+}
+
+.subtrips-column {
+  font-family: "Open Sans", sans-serif;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #1d1e20;
+  color: #ffffff;
+  text-align: center;
+}
+
+.trip-row {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  margin-right: 29vw;
+}
+
+.trips-category {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+}
+
+.trip-name {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #03a3ff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.trip-likes {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+}

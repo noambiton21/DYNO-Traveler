@@ -1,0 +1,40 @@
+.box {
+  margin: 20px;
+  padding: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 10% 48% 14% 14% 14%;
+  margin-right: 14vw;
+}
+
+.topicList {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topicList-category {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #2a2f38;
+  /* color: #ff0042; */
+  color: #1b86b8;
+  text-align: center;
+  border: none;
+}
+.about-trips {
+  margin-top: 3vh;
+}
+
+.about {
+  position: static;
+}
